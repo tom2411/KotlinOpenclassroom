@@ -1,5 +1,7 @@
 package variables
 
+import java.awt.Button
+
 class cours1 {
     // Les différentes façons de déclarer une variable en Kotlin
     // Nous n'avons pas besoin de ; à la fin des déclarations
@@ -63,8 +65,24 @@ class cours1 {
     val name = "Phil"
     print("Hello $name")
 
+    // Faire des constantes en Kotlin
+    const val SERVER_URL: String = "https://my.api.com"
 
+    // Initialiser une variable après sa déclaration
+    // on ne peut pas écrire ça
+    var username: String
 
+    // On peut écrire ça
+    var username: String? = null
+    // Cependant, on permet à notre variable d'être null
+    // ce qui n'est pas vraiment ce que l'on veut faire
 
+    // on peut utiliser le mot-clé "lateinit" pour indiquer que la variable
+    // sera initialisée plus tard
+    private lateinit var submitButton: Button
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        submitButton = this.getSubmitButton()
+    }
 }
