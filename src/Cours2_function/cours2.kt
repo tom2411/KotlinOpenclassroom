@@ -1,4 +1,4 @@
-package function
+package Cours2_function
 
 class cours2 {
 

@@ -1,4 +1,4 @@
-package variables
+package Cours1_variables
 
 import java.awt.Button
 

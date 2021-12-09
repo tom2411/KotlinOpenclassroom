@@ -1,4 +1,4 @@
-package variables
+package Cours1_variables
 
 class Exercice1 {
     const val BEST_PROGRAMMING_LANGUAGE = "Kotlin"
