@@ -2,22 +2,13 @@ package function
 
 class Exercice2 {
     // Corrigez cette fonction
-    fun sayMyName() { println(" $name ") }
+    fun sayMyName(name: String) = println(" $name ")
 
     // Simplifiez cette fonction
-    fun sayHello(): String {
-        return "Hello"
-    }
+    fun sayHello() =  "Hello"
 
     // Simplifiez cette fonction
-    fun isStudent(isLearning: Boolean): Boolean {
-        if (isLearning){
-            return true
-        } else {
-            return false
-        }
-    }
-
+    fun isStudent(isLearning: Boolean) = isLearning
 
     fun main(args: Array<String>) {
         println( sayHello() )
