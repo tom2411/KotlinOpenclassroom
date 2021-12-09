@@ -1,16 +1,16 @@
 package variables
 
 class Exercice1 {
-    const BEST_PROGRAMMING_LANGUAGE = "Kotlin"
+    const val BEST_PROGRAMMING_LANGUAGE = "Kotlin"
 
     fun main() {
 
-        val hello = "Hello"
+        var hello = "Hello"
         hello = "Hello world!"
 
         println(hello)
 
-        var toto:Int = "Toto"
+        var toto:String = "Toto"
 
         println(toto)
 
