@@ -12,6 +12,13 @@ class Exercice6 {
 
     fun showFruitColor(fruit: Fruit){
         // Complétez le code de cette fonction pour afficher la couleur du fruit
+        when(fruit){
+            is Apple -> println("Vert")
+            is Orange -> println("Orange")
+            is Banana -> println("Jaune")
+            is Strawberry -> println("Rose")
+            is Raspberry -> println("Rouge")
+        }
     }
 
     fun main(args: Array<String>) {
