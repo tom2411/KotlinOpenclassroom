@@ -1,4 +1,4 @@
-package Cours2_function
+package Cours2_functions
 
 class Exercice2 {
     // Corrigez cette fonction
